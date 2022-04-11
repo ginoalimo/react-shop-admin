@@ -10,6 +10,7 @@ const endPoints = {
     getProduct: (id) => `${API}/api/${VERSION}/products/${id}`,
     allProducts: `${API}/api/${VERSION}/products/`,
     postProduct: `${API}/api/${VERSION}/products`,
+    addProducts: `${API}/api/${VERSION}/products`,
     getProducts: (limit, offset) => `${API}/api/${VERSION}/products?limit=${limit}&offset=${offset}`,
     putProduct: (id) => `${API}/api/${VERSION}/products/${id}`,
     deleteProduct: (id) => `${API}/api/${VERSION}/products/${id}`,
