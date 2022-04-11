@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { CheckIcon } from '@heroicons/react/solid';
 import Modal from '@common/Modal';
-import FormProduct from '@components/FormProducts';
+import FormProduct from '@components/FormProduct';
 import axios from 'axios';
 import endPoints from '@services/api';
 import useAlert from '@hooks/useAlert';
